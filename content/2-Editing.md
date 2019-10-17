@@ -55,6 +55,11 @@ It's nice to be able to cut out vocal tics like "um" and "like," and it's especi
 
 There may only be the above 2 steps to this process, but it's more involved than it seems, because you're going to want to listen to the entire audio clip and **assess your cuts based on the surrounding speech and context**. You do a lot of pausing, re-listening, deleting, re-re-listening, deciding that "uhhhhh" was actually kind of cute and personable, *un*deleting, etc., before moving on.
 
+{% capture text %}
+**First, here's a great tip!** Before you start slicing and dicing up the audio, get a pen and paper and listen through the entire project from start to finish, keeping an eye on the time/clock at the bottom of the Audacity window. Listen for anything you think you'll want to cut out, and mark the time in the audio file where it happens. Then, go to the times you've listed and start cutting, but: **start at the end of the audio and go backwards!** Why? Let's say you made a note about a hiccup at 00:30 in the audio and you go cut it out, then you move on to another hiccup you noted at 01:45...it's not there anymore, because your previous edit moved the audio file up to close the gap around your previous edit! Starting from the end and going backwards ensures that your noted times will all be reliable.
+{% endcapture %}
+{% include alert.md text=text %}
+
 {% endcapture %}
 {% include card.md text=text header="Cleaning up your audio" %}
 
